@@ -6,19 +6,28 @@
 main {
     display: grid;
     gap: 10px;
-    grid-template-columns:2fr 5fr 1fr;
+    grid-template-columns:2fr 6fr ;
     grid-template-areas: 
                         "h h h"
-                        "as a n"
+                        "n a a"
                         "f f f ";
 
 }
 
 
-header, nav, article,footer, aside {
+header, nav, article,footer {
     border:1px solid black;
     padding: 10px
 }
 header {
-    grid-area:h
+    grid-area: h
+}
+nav {
+    grid-area: n
+}
+article {
+    grid-area: a
+}
+footer {
+    grid-area: f
 }
