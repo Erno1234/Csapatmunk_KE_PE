@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 main {
+    color:bisque;
     display: grid;
     gap: 10px;
     grid-template-columns:2fr 6fr ;
