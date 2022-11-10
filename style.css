@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 main {
+    color: aqua;
     display: grid;
     gap: 10px;
     grid-template-columns:2fr 6fr ;
@@ -11,6 +12,7 @@ main {
                         "h h h"
                         "n a a"
                         "f f f ";
+
 
 }
 
