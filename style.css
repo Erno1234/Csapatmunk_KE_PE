@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 main {
+<<<<<<< HEAD
     color: aqua;
+=======
+    color:bisque;
+>>>>>>> 9c4da9b0dcf3a73c861f834a5aaf38620184aac0
     display: grid;
     gap: 10px;
     grid-template-columns:2fr 6fr ;
